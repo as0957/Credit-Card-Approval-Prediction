@@ -25,14 +25,16 @@ This project implements a stacked ensemble classifier for credit approval predic
 pandas
 numpy
 scikit-learn
+jupyter
 ```
 
 ## Project Structure
 ```
-credit_approval_model/
-├── credit_approval_model.ipynb   # Main notebook with model implementation
+CREDIT-CARD-APPROVAL/
+├── credit/                      # Virtual environment directory
 ├── credit_approval/             
-│   └── crx.data                 # Dataset file
+│   └── crx.data                # Dataset file
+├── credit_approval_model.ipynb  # Main notebook with model implementation
 ├── README.md
 └── requirements.txt
 ```
@@ -40,14 +42,14 @@ credit_approval_model/
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/credit-approval-model.git
-cd credit-approval-model
+git clone https://github.com/yourusername/credit-card-approval.git
+cd credit-card-approval
 ```
 
-2. Create and activate a virtual environment (optional but recommended):
+2. Create and activate a virtual environment:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+python -m venv credit
+source credit/bin/activate  # On Windows, use: credit\Scripts\activate
 ```
 
 3. Install required packages:
@@ -56,7 +58,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Ensure the dataset is placed in the correct directory (`credit_approval/crx.data`)
+1. Ensure the dataset is in the correct directory (`credit_approval/crx.data`)
 2. Run the Jupyter notebook:
 ```bash
 jupyter notebook credit_approval_model.ipynb
