@@ -99,6 +99,9 @@ The current implementation achieves:
 - Meta Model:
   - Gradient Boosting Classifier (50 estimators)
 
+## Model Performance
+![Confusion Matrix](images/model_performance.png)
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
