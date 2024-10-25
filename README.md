@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.12-blue.svg)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 # Credit Approval Model
 
 ## Overview
